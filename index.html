@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The French Revolution (1789-1799)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h2 class="nav-logo">French Revolution</h2>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#timeline" class="nav-link">Timeline</a></li>
+                <li><a href="#figures" class="nav-link">Key Figures</a></li>
+                <li><a href="#causes" class="nav-link">Causes</a></li>
+                <li><a href="#events" class="nav-link">Major Events</a></li>
+                <li><a href="#impact" class="nav-link">Impact</a></li>
+                <li><a href="#quiz" class="nav-link">Quiz</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">The French Revolution</h1>
+            <p class="hero-subtitle">1789 - 1799</p>
+            <p class="hero-description">A decade that changed the course of history, overthrowing centuries of monarchy and establishing the foundations of modern democratic society.</p>
+            <button class="hero-btn" onclick="scrollToSection('timeline')">Explore the Journey</button>
+        </div>
+        <div class="hero-decoration"></div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline-section">
+        <div class="container">
+            <h2 class="section-title">Revolutionary Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-year="1789">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Estates-General Convenes</h3>
+                        <p class="timeline-date">May 5, 1789</p>
+                        <p class="timeline-description">First meeting since 1614, representing the three estates of French society</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="1789">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Tennis Court Oath</h3>
+                        <p class="timeline-date">June 20, 1789</p>
+                        <p class="timeline-description">Third Estate pledges to draft a new constitution</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="1789">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Storming of the Bastille</h3>
+                        <p class="timeline-date">July 14, 1789</p>
+                        <p class="timeline-description">Symbolic beginning of the French Revolution</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="1789">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Declaration of Rights</h3>
+                        <p class="timeline-date">August 26, 1789</p>
+                        <p class="timeline-description">Declaration of the Rights of Man and of the Citizen adopted</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="1792">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>First French Republic</h3>
+                        <p class="timeline-date">September 22, 1792</p>
+                        <p class="timeline-description">Monarchy abolished, Republic established</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="1793">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Reign of Terror</h3>
+                        <p class="timeline-date">1793-1794</p>
+                        <p class="timeline-description">Period of violent political purges and mass executions</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="1799">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Napoleon's Coup</h3>
+                        <p class="timeline-date">November 9, 1799</p>
+                        <p class="timeline-description">Napoleon Bonaparte seizes power, ending the Directory</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Figures Section -->
+    <section id="figures" class="figures-section">
+        <div class="container">
+            <h2 class="section-title">Key Figures</h2>
+            <div class="figures-grid">
+                <div class="figure-card">
+                    <h3>Louis XVI</h3>
+                    <p class="figure-role">King of France</p>
+                    <p class="figure-description">Last King of France before the revolution, executed in 1793</p>
+                </div>
+                <div class="figure-card">
+                    <h3>Marie Antoinette</h3>
+                    <p class="figure-role">Queen of France</p>
+                    <p class="figure-description">Austrian-born Queen, symbol of royal excess, executed in 1793</p>
+                </div>
+                <div class="figure-card">
+                    <h3>Maximilien Robespierre</h3>
+                    <p class="figure-role">Revolutionary Leader</p>
+                    <p class="figure-description">Leader of the Jacobins and architect of the Reign of Terror</p>
+                </div>
+                <div class="figure-card">
+                    <h3>Jacques Necker</h3>
+                    <p class="figure-role">Finance Minister</p>
+                    <p class="figure-description">Swiss banker who served as Director-General of Finance</p>
+                </div>
+                <div class="figure-card">
+                    <h3>Georges Danton</h3>
+                    <p class="figure-role">Revolutionary Leader</p>
+                    <p class="figure-description">Moderate revolutionary leader, eventually executed during Reign of Terror</p>
+                </div>
+                <div class="figure-card">
+                    <h3>Napoleon Bonaparte</h3>
+                    <p class="figure-role">Military Leader</p>
+                    <p class="figure-description">Rose to power after the revolution, became Emperor of France</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Causes Section -->
+    <section id="causes" class="causes-section">
+        <div class="container">
+            <h2 class="section-title">Causes of Revolution</h2>
+            <div class="causes-grid">
+                <div class="cause-card">
+                    <h3>Economic Causes</h3>
+                    <ul>
+                        <li>Financial crisis due to involvement in American Revolutionary War</li>
+                        <li>Heavy taxation burden on Third Estate</li>
+                        <li>Food shortages and high bread prices</li>
+                        <li>Inefficient tax system favoring nobility and clergy</li>
+                    </ul>
+                </div>
+                <div class="cause-card">
+                    <h3>Social Causes</h3>
+                    <ul>
+                        <li>Inequality between the three estates</li>
+                        <li>Rise of bourgeoisie demanding political representation</li>
+                        <li>Enlightenment ideas spreading among educated classes</li>
+                        <li>Resentment against privileged classes</li>
+                    </ul>
+                </div>
+                <div class="cause-card">
+                    <h3>Political Causes</h3>
+                    <ul>
+                        <li>Absolute monarchy lacking popular support</li>
+                        <li>Weak leadership of Louis XVI</li>
+                        <li>Lack of representation for Third Estate</li>
+                        <li>Influence of Enlightenment political philosophy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Major Events Section -->
+    <section id="events" class="events-section">
+        <div class="container">
+            <h2 class="section-title">Major Events</h2>
+            <div class="events-grid">
+                <div class="event-card">
+                    <h3>Storming of the Bastille</h3>
+                    <p class="event-date">July 14, 1789</p>
+                    <p class="event-significance">Marked the beginning of the French Revolution and became a symbol of popular uprising against tyranny</p>
+                </div>
+                <div class="event-card">
+                    <h3>Great Fear</h3>
+                    <p class="event-date">July-August 1789</p>
+                    <p class="event-significance">Rural uprising that led to the abolition of feudalism in France</p>
+                </div>
+                <div class="event-card">
+                    <h3>Women's March on Versailles</h3>
+                    <p class="event-date">October 5-6, 1789</p>
+                    <p class="event-significance">Forced the royal family to move from Versailles to Paris, bringing them under closer scrutiny</p>
+                </div>
+                <div class="event-card">
+                    <h3>Execution of Louis XVI</h3>
+                    <p class="event-date">January 21, 1793</p>
+                    <p class="event-significance">Marked the definitive end of the monarchy and intensified conflict with European powers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section id="impact" class="impact-section">
+        <div class="container">
+            <h2 class="section-title">Impact and Consequences</h2>
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <h3>Political Impact</h3>
+                    <ul>
+                        <li>End of absolute monarchy in France</li>
+                        <li>Establishment of democratic ideals</li>
+                        <li>Rise of nationalism across Europe</li>
+                        <li>Influence on democratic movements worldwide</li>
+                    </ul>
+                </div>
+                <div class="impact-card">
+                    <h3>Social Impact</h3>
+                    <ul>
+                        <li>Abolition of feudalism and serfdom</li>
+                        <li>Declaration of human rights</li>
+                        <li>Social mobility based on merit rather than birth</li>
+                        <li>Secularization of society</li>
+                    </ul>
+                </div>
+                <div class="impact-card">
+                    <h3>Economic Impact</h3>
+                    <ul>
+                        <li>Abolition of guilds and trade restrictions</li>
+                        <li>Land redistribution from nobility to peasants</li>
+                        <li>Introduction of metric system</li>
+                        <li>Economic modernization and industrialization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz" class="quiz-section">
+        <div class="container">
+            <h2 class="section-title">Test Your Knowledge</h2>
+            
+            <!-- Quiz Start Screen -->
+            <div id="quiz-start" class="quiz-container active">
+                <div class="quiz-intro">
+                    <h3>French Revolution Quiz</h3>
+                    <p class="quiz-description">Test your knowledge about the French Revolution with 12 carefully crafted questions covering timeline, key figures, causes, major events, and impacts.</p>
+                    <div class="quiz-info">
+                        <div class="quiz-info-item">
+                            <span class="info-icon">📝</span>
+                            <span>12 Questions</span>
+                        </div>
+                        <div class="quiz-info-item">
+                            <span class="info-icon">⏱️</span>
+                            <span>No Time Limit</span>
+                        </div>
+                        <div class="quiz-info-item">
+                            <span class="info-icon">🎯</span>
+                            <span>Multiple Choice</span>
+                        </div>
+                    </div>
+                    <button class="quiz-start-btn" onclick="startQuiz()">Start Quiz</button>
+                </div>
+            </div>
+
+            <!-- Quiz Question Screen -->
+            <div id="quiz-question" class="quiz-container">
+                <div class="quiz-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+                    <span class="progress-text" id="progress-text">Question 1 of 12</span>
+                </div>
+                
+                <div class="quiz-content">
+                    <h3 id="question-text" class="question-text"></h3>
+                    <div class="difficulty-badge" id="difficulty-badge"></div>
+                    
+                    <div class="answer-options" id="answer-options">
+                        <!-- Options will be dynamically generated -->
+                    </div>
+                    
+                    <div class="quiz-explanation hidden" id="quiz-explanation">
+                        <div class="explanation-header">
+                            <span id="result-icon"></span>
+                            <span id="result-text"></span>
+                        </div>
+                        <p id="explanation-text"></p>
+                        <button class="next-btn" id="next-btn" onclick="nextQuestion()">Next Question</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quiz Results Screen -->
+            <div id="quiz-results" class="quiz-container">
+                <div class="results-content">
+                    <div class="results-header">
+                        <span class="results-emoji" id="results-emoji">🎉</span>
+                        <h3 id="results-title">Quiz Completed!</h3>
+                    </div>
+                    
+                    <div class="score-display">
+                        <div class="score-circle">
+                            <span class="score-value" id="final-score">0</span>
+                            <span class="score-total">/ 12</span>
+                        </div>
+                        <div class="score-percentage" id="score-percentage">0%</div>
+                    </div>
+                    
+                    <div class="performance-feedback" id="performance-feedback">
+                        <p id="feedback-text"></p>
+                    </div>
+                    
+                    <div class="results-breakdown">
+                        <div class="breakdown-item">
+                            <span class="breakdown-label">Correct Answers:</span>
+                            <span class="breakdown-value" id="correct-count">0</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span class="breakdown-label">Incorrect Answers:</span>
+                            <span class="breakdown-value" id="incorrect-count">0</span>
+                        </div>
+                    </div>
+                    
+                    <div class="results-actions">
+                        <button class="retake-btn" onclick="restartQuiz()">Retake Quiz</button>
+                        <button class="explore-btn" onclick="scrollToSection('hero')">Explore More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 French Revolution Historical Archive. Educational content for historical learning.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
